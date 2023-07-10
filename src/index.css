@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background: black;
+  color: white;
+  scroll-behavior: smooth;
+}
+.active {
+  font-size: large;
+}
