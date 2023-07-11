@@ -91,7 +91,7 @@ const AppRoutes = () => {
         path="*"
         element={
           <Suspense fallback={<Loading />}>
-            <PageNotFounded/>
+            <PageNotFounded />
           </Suspense>
         }
       />
